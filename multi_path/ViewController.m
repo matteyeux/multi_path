@@ -188,7 +188,7 @@ next:
     
 }
 - (IBAction)go:(id)sender {
-    taskforpidzero = run();
+    taskforpidzero = vfs_sploit();
     kernel_base = find_kernel_base();
     kslide = kernel_base - 0xfffffff007004000;
     
